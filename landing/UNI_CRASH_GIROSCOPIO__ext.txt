@@ -1,0 +1,7 @@
+ID_GYR string,
+ID_ELABORAZIONE string,
+VEL_ANG_X string,
+VEL_ANG_Y string,
+VEL_ANG_Z string,
+VEL_ANG_MED string,
+ORA_CRASH string

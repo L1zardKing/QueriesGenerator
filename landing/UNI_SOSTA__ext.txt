@@ -1,0 +1,11 @@
+ID_SOSTA string,
+DATA_ORA_SOSTA string,
+NUM_LAT_SOSTA string,
+NUM_LONG_SOSTA string,
+QUALITA_GPS string,
+COD_PROVINCIA string,
+DESC_VIA string,
+COD_CAP string,
+DESC_COMUNE string,
+DESC_CATEG_STRADA string,
+ID_RICHIESTA string

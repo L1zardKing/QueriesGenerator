@@ -1,0 +1,8 @@
+ID_CRASH_ACC_OCTO string,
+NUM_ACC_X string,
+NUM_ACC_Y string,
+NUM_ACC_Z string,
+HZ string,
+DATA_ORA_POS string,
+ID_CRASH_OCTO string,
+ID_RICHIESTA string

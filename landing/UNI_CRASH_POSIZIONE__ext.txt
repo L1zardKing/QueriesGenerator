@@ -1,0 +1,9 @@
+ID_CRASH string,
+ID_ELABORAZIONE string,
+NUM_LAT_CRASH string,
+NUM_LONG_CRASH string,
+NUM_VEL_GPS string,
+NUM_QUADRO string,
+NUM_FLAG string,
+ORA_CRASH string,
+NUM_ORIGINE_DATO string

@@ -1,0 +1,372 @@
+UNI_RICHIESTA
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_RICHIESTA         | UNI_RICHIESTA        | DECIMAL  | 31     | 0      |
+| 1      | NUM_SINISTRO         | UNI_RICHIESTA        | VARCHAR  | 20     | 0      |
+| 2      | DATA_ORA_SINISTRO    | UNI_RICHIESTA        | TIMESTMP | 10     | 6      |
+| 3      | STATO_OCTO           | UNI_RICHIESTA        | CHAR     | 1      | 0      |
+| 4      | NUM_TARGA            | UNI_RICHIESTA        | VARCHAR  | 10     | 0      |
+| 5      | INDIRIZZO            | UNI_RICHIESTA        | VARCHAR  | 255    | 0      |
+| 6      | DATA_INSERIMENTO     | UNI_RICHIESTA        | TIMESTMP | 10     | 6      |
+| 7      | UID_RICHIEDENTE      | UNI_RICHIESTA        | VARCHAR  | 10     | 0      |
+| 8      | DATA_AGGIORNAMENTO   | UNI_RICHIESTA        | TIMESTMP | 10     | 6      |
+| 9      | DESC_AGG             | UNI_RICHIESTA        | VARCHAR  | 10     | 0      |
+| 10     | STATO_TERMINALE      | UNI_RICHIESTA        | VARCHAR  | 2      | 0      |
+| 11     | DESC_FONTE           | UNI_RICHIESTA        | VARCHAR  | 10     | 0      |
+| 12     | NUM_VOUCHER          | UNI_RICHIESTA        | DECIMAL  | 8      | 0      |
+| 13     | DESC_CONTRATTO       | UNI_RICHIESTA        | VARCHAR  | 50     | 0      |
+| 14     | DATA_ULTIMO_DOWNLOAD | UNI_RICHIESTA        | TIMESTMP | 10     | 6      |
+| 15     | NUM_CRASH            | UNI_RICHIESTA        | DECIMAL  | 6      | 0      |
+| 16     | NUM_VIAGGI           | UNI_RICHIESTA        | DECIMAL  | 6      | 0      |
+| 17     | NUM_ANOMALIE         | UNI_RICHIESTA        | DECIMAL  | 6      | 0      |
+| 18     | NUM_NO_DEVICE        | UNI_RICHIESTA        | DECIMAL  | 6      | 0      |
+| 19     | NUM_QUESTIONARI      | UNI_RICHIESTA        | DECIMAL  | 6      | 0      |
+| 20     | COD_TIPO_TERMINALE   | UNI_RICHIESTA        | CHAR     | 1      | 0      |
+| 21     | DESC_NOME_FILE       | UNI_RICHIESTA        | VARCHAR  | 100    | 0      |
+| 22     | FLAG_CARD            | UNI_RICHIESTA        | CHAR     | 1      | 0      |
+| 23     | COD_RESPONSABILITA   | UNI_RICHIESTA        | VARCHAR  | 2      | 0      |
+| 24     | NUM_CRASH_OCTO       | UNI_RICHIESTA        | DECIMAL  | 6      | 0      |
+| 25     | PROVINCIA_DICHIARATA | UNI_RICHIESTA        | VARCHAR  | 2      | 0      |
+| 26     | PROVINCE_CIRCOLAZIONE | UNI_RICHIESTA        | VARCHAR  | 256    | 0      |
+| 27     | ATTORI_DANNO         | UNI_RICHIESTA        | CHAR     | 1      | 0      |
+| 28     | NUM_SINISTRO_CONTROPARTE | UNI_RICHIESTA        | VARCHAR  | 20     | 0      |
+| 29     | NUM_LAT_DICHIARATA   | UNI_RICHIESTA        | DECIMAL  | 10     | 6      |
+| 30     | NUM_LONG_DICHIARATA  | UNI_RICHIESTA        | DECIMAL  | 10     | 6      |
+| 31     | DATA_APERTURA_SINISTRO | UNI_RICHIESTA        | DATE     | 4      | 0      |
+| 32     | TIPO_FIRMA           | UNI_RICHIESTA        | VARCHAR  | 1      | 0      |
+| 33     | BAREME_ASS_DA_ASS    | UNI_RICHIESTA        | VARCHAR  | 2      | 0      |
+| 34     | BAREME_CTP_DA_ASS    | UNI_RICHIESTA        | VARCHAR  | 2      | 0      |
+| 35     | BAREME_ASS_DA_CTP    | UNI_RICHIESTA        | VARCHAR  | 2      | 0      |
+| 36     | BAREME_CTP_DA_CTP    | UNI_RICHIESTA        | VARCHAR  | 2      | 0      |
+| 37     | DESC_NOME_FILE_OCTO  | UNI_RICHIESTA        | VARCHAR  | 128    | 0      |
+| 38     | NUM_FREQ_CAMP_GPS    | UNI_RICHIESTA        | INTEGER  | 4      | 0      |
+| 39     | NUM_FREQ_CAMP_ACC    | UNI_RICHIESTA        | INTEGER  | 4      | 0      |
+| 40     | NUM_FREQ_CAMP_GIR    | UNI_RICHIESTA        | INTEGER  | 4      | 0      |
+| 41     | DESC_VER_FIRMWARE    | UNI_RICHIESTA        | VARCHAR  | 30     | 0      |
+| 42     | DESC_TEL1            | UNI_RICHIESTA        | VARCHAR  | 15     | 0      |
+| 43     | DESC_TEL2            | UNI_RICHIESTA        | VARCHAR  | 15     | 0      |
+| 44     | DESC_TEL3            | UNI_RICHIESTA        | VARCHAR  | 15     | 0      |
+| 45     | DESC_TEL4            | UNI_RICHIESTA        | VARCHAR  | 15     | 0      |
+| 46     | NUM_MAX_ACC          | UNI_RICHIESTA        | DECIMAL  | 8      | 4      |
+| 47     | DATA_CHIUSURA_SINISTRO | UNI_RICHIESTA        | DATE     | 4      | 0      |
+| 48     | NOME_ASSICURATO      | UNI_RICHIESTA        | VARCHAR  | 70     | 0      |
+| 49     | GARANZIA_IMPATTATA   | UNI_RICHIESTA        | VARCHAR  | 3      | 0      |
+| 50     | PRODUTTORE           | UNI_RICHIESTA        | VARCHAR  | 255    | 0      |
+| 51     | MODELLO              | UNI_RICHIESTA        | VARCHAR  | 255    | 0      |
+| 52     | TITOLARITA           | UNI_RICHIESTA        | VARCHAR  | 25     | 0      |
+| 53     | COMPAGNIA            | UNI_RICHIESTA        | VARCHAR  | 1      | 0      |
+| 54     | CHIUSURA_ASSISTENZA  | UNI_RICHIESTA        | VARCHAR  | 255    | 0      |
+-------------------------------------------------------------------------------------
+
+UNI_CRASH_ACC_OCTO
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_CRASH_ACC_OCTO    | UNI_CRASH_ACC_OCTO   | DECIMAL  | 31     | 0      |
+| 1      | NUM_ACC_X            | UNI_CRASH_ACC_OCTO   | DECIMAL  | 10     | 5      |
+| 2      | NUM_ACC_Y            | UNI_CRASH_ACC_OCTO   | DECIMAL  | 10     | 5      |
+| 3      | NUM_ACC_Z            | UNI_CRASH_ACC_OCTO   | DECIMAL  | 10     | 5      |
+| 4      | HZ                   | UNI_CRASH_ACC_OCTO   | INTEGER  | 4      | 0      |
+| 5      | DATA_ORA_POS         | UNI_CRASH_ACC_OCTO   | TIMESTMP | 10     | 6      |
+| 6      | ID_CRASH_OCTO        | UNI_CRASH_ACC_OCTO   | DECIMAL  | 31     | 0      |
+| 7      | ID_RICHIESTA         | UNI_CRASH_ACC_OCTO   | DECIMAL  | 31     | 0      |
+-------------------------------------------------------------------------------------
+
+
+UNI_CRASH_GIROSCOPIO_OCTO
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_CRASH_GIR         | UNI_CRASH_GIROSCOPIO_OCTO | DECIMAL  | 31     | 0      |
+| 1      | NUM_GIR_X            | UNI_CRASH_GIROSCOPIO_OCTO | DECIMAL  | 8      | 4      |
+| 2      | NUM_GIR_Y            | UNI_CRASH_GIROSCOPIO_OCTO | DECIMAL  | 8      | 4      |
+| 3      | NUM_GIR_Z            | UNI_CRASH_GIROSCOPIO_OCTO | DECIMAL  | 8      | 4      |
+| 4      | DATA_ORA_POSIZIONE   | UNI_CRASH_GIROSCOPIO_OCTO | TIMESTMP | 10     | 6      |
+| 5      | ID_RICHIESTA         | UNI_CRASH_GIROSCOPIO_OCTO | DECIMAL  | 31     | 0      |
+| 6      | ID_CRASH_OCTO        | UNI_CRASH_GIROSCOPIO_OCTO | DECIMAL  | 31     | 0      |
+-------------------------------------------------------------------------------------
+
+UNI_CRASH_CALIBRAZIONE_OCTO
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_CRASH_ROTAZ       | UNI_CRASH_CALIBRAZIONE_OCTO | DECIMAL  | 31     | 0      |
+| 1      | NUM_ALFA_X           | UNI_CRASH_CALIBRAZIONE_OCTO | INTEGER  | 4      | 0      |
+| 2      | NUM_ALFA_Y           | UNI_CRASH_CALIBRAZIONE_OCTO | INTEGER  | 4      | 0      |
+| 3      | NUM_ALFA_Z           | UNI_CRASH_CALIBRAZIONE_OCTO | INTEGER  | 4      | 0      |
+| 4      | ID_RICHIESTA         | UNI_CRASH_CALIBRAZIONE_OCTO | DECIMAL  | 31     | 0      |
+| 5      | ID_CRASH_OCTO        | UNI_CRASH_CALIBRAZIONE_OCTO | DECIMAL  | 31     | 0      |
+| 6      | NUM_OFFSET_X         | UNI_CRASH_CALIBRAZIONE_OCTO | DECIMAL  | 10     | 5      |
+| 7      | NUM_OFFSET_Y         | UNI_CRASH_CALIBRAZIONE_OCTO | DECIMAL  | 10     | 5      |
+| 8      | NUM_OFFSET_Z         | UNI_CRASH_CALIBRAZIONE_OCTO | DECIMAL  | 10     | 5      |
+-------------------------------------------------------------------------------------
+
+
+UNI_CRASH_POSIZIONE_OCTO
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_CRASH_POSIZIONE_OCTO | UNI_CRASH_POSIZIONE_OCTO | DECIMAL  | 31     | 0      |
+| 1      | LAT_RILEVAZIONE      | UNI_CRASH_POSIZIONE_OCTO | DECIMAL  | 10     | 6      |
+| 2      | LONG_RILEVAZIONE     | UNI_CRASH_POSIZIONE_OCTO | DECIMAL  | 10     | 6      |
+| 3      | NUM_LIVELLO_GPS      | UNI_CRASH_POSIZIONE_OCTO | DECIMAL  | 31     | 0      |
+| 4      | FLAG_CRASH           | UNI_CRASH_POSIZIONE_OCTO | CHAR     | 1      | 0      |
+| 5      | ID_CRASH_OCTO        | UNI_CRASH_POSIZIONE_OCTO | DECIMAL  | 31     | 0      |
+| 6      | DATA_ORA_RILEVAZIONE | UNI_CRASH_POSIZIONE_OCTO | TIMESTMP | 10     | 6      |
+| 7      | VELOCITA_GPS         | UNI_CRASH_POSIZIONE_OCTO | DECIMAL  | 10     | 2      |
+| 8      | HEADING_GPS          | UNI_CRASH_POSIZIONE_OCTO | DECIMAL  | 3      | 0      |
+| 9      | STATO_QUADRO         | UNI_CRASH_POSIZIONE_OCTO | DECIMAL  | 1      | 0      |
+| 10     | ID_RICHIESTA         | UNI_CRASH_POSIZIONE_OCTO | DECIMAL  | 31     | 0      |
+| 11     | NUM_DIST_INTER       | UNI_CRASH_POSIZIONE_OCTO | INTEGER  | 4      | 0      |
+-------------------------------------------------------------------------------------
+
+
+UNI_CRASH_ACC
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_ACC               | UNI_CRASH_ACC        | DECIMAL  | 31     | 0      |
+| 1      | ID_ELABORAZIONE      | UNI_CRASH_ACC        | DECIMAL  | 31     | 0      |
+| 2      | NUM_ACC_X            | UNI_CRASH_ACC        | DECIMAL  | 8      | 4      |
+| 3      | NUM_ACC_Y            | UNI_CRASH_ACC        | DECIMAL  | 8      | 4      |
+| 4      | NUM_ACC_Z            | UNI_CRASH_ACC        | DECIMAL  | 8      | 4      |
+| 5      | NUM_ACC_XY           | UNI_CRASH_ACC        | DECIMAL  | 8      | 4      |
+| 6      | NUM_VEL_ACC          | UNI_CRASH_ACC        | DECIMAL  | 8      | 4      |
+| 7      | NUM_VEL_GPS          | UNI_CRASH_ACC        | DECIMAL  | 8      | 4      |
+| 8      | ORA_CRASH            | UNI_CRASH_ACC        | TIMESTMP | 10     | 6      |
+| 9      | NUM_APP_URTO         | UNI_CRASH_ACC        | INTEGER  | 4      | 0      |
+-------------------------------------------------------------------------------------
+
+UNI_CRASH_GIROSCOPIO
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_GYR               | UNI_CRASH_GIROSCOPIO | DECIMAL  | 31     | 0      |
+| 1      | ID_ELABORAZIONE      | UNI_CRASH_GIROSCOPIO | DECIMAL  | 31     | 0      |
+| 2      | VEL_ANG_X            | UNI_CRASH_GIROSCOPIO | DECIMAL  | 8      | 4      |
+| 3      | VEL_ANG_Y            | UNI_CRASH_GIROSCOPIO | DECIMAL  | 8      | 4      |
+| 4      | VEL_ANG_Z            | UNI_CRASH_GIROSCOPIO | DECIMAL  | 8      | 4      |
+| 5      | VEL_ANG_MED          | UNI_CRASH_GIROSCOPIO | DECIMAL  | 8      | 4      |
+| 6      | ORA_CRASH            | UNI_CRASH_GIROSCOPIO | TIMESTMP | 10     | 6      |
+-------------------------------------------------------------------------------------
+
+
+UNI_CRASH_POSIZIONE
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_CRASH             | UNI_CRASH_POSIZIONE  | DECIMAL  | 31     | 0      |
+| 1      | ID_ELABORAZIONE      | UNI_CRASH_POSIZIONE  | DECIMAL  | 31     | 0      |
+| 2      | NUM_LAT_CRASH        | UNI_CRASH_POSIZIONE  | DECIMAL  | 10     | 6      |
+| 3      | NUM_LONG_CRASH       | UNI_CRASH_POSIZIONE  | DECIMAL  | 10     | 6      |
+| 4      | NUM_VEL_GPS          | UNI_CRASH_POSIZIONE  | DECIMAL  | 8      | 4      |
+| 5      | NUM_QUADRO           | UNI_CRASH_POSIZIONE  | DECIMAL  | 31     | 0      |
+| 6      | NUM_FLAG             | UNI_CRASH_POSIZIONE  | DECIMAL  | 2      | 0      |
+| 7      | ORA_CRASH            | UNI_CRASH_POSIZIONE  | TIMESTMP | 10     | 6      |
+| 8      | NUM_ORIGINE_DATO     | UNI_CRASH_POSIZIONE  | INTEGER  | 4      | 0      |
+-------------------------------------------------------------------------------------
+
+
+UNI_ELABORAZIONE_DETTAGLIO_URTI
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_DETTAGLIO         | UNI_ELABORAZIONE_DETTAGLIO_URTI | DECIMAL  | 31     | 0      |
+| 1      | ID_ELABORAZIONE      | UNI_ELABORAZIONE_DETTAGLIO_URTI | DECIMAL  | 31     | 0      |
+| 2      | NUM_DETTAGLIO        | UNI_ELABORAZIONE_DETTAGLIO_URTI | INTEGER  | 4      | 0      |
+| 3      | NUM_AMAX             | UNI_ELABORAZIONE_DETTAGLIO_URTI | DECIMAL  | 8      | 4      |
+| 4      | NUM_TETA             | UNI_ELABORAZIONE_DETTAGLIO_URTI | DECIMAL  | 8      | 4      |
+| 5      | DIREZIONE_URTO       | UNI_ELABORAZIONE_DETTAGLIO_URTI | VARCHAR  | 2      | 0      |
+| 6      | NUM_IMPULSO_DVU      | UNI_ELABORAZIONE_DETTAGLIO_URTI | DECIMAL  | 8      | 4      |
+| 7      | NUM_PP0              | UNI_ELABORAZIONE_DETTAGLIO_URTI | DECIMAL  | 8      | 4      |
+| 8      | NUM_PP1              | UNI_ELABORAZIONE_DETTAGLIO_URTI | DECIMAL  | 8      | 4      |
+| 9      | NUM_PP2              | UNI_ELABORAZIONE_DETTAGLIO_URTI | DECIMAL  | 8      | 4      |
+| 10     | NUM_DURATA_EVENTO    | UNI_ELABORAZIONE_DETTAGLIO_URTI | DECIMAL  | 8      | 4      |
+-------------------------------------------------------------------------------------
+
+UNI_ELABORAZIONE
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_ELABORAZIONE      | UNI_ELABORAZIONE     | DECIMAL  | 31     | 0      |
+| 1      | ID_RILEVAZIONE       | UNI_ELABORAZIONE     | DECIMAL  | 10     | 0      |
+| 2      | NUM_VERSIONE         | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 3      | DATA_ORA_ELABORAZIONE | UNI_ELABORAZIONE     | TIMESTMP | 10     | 6      |
+| 4      | DESC_NOME_FILE       | UNI_ELABORAZIONE     | VARCHAR  | 100    | 0      |
+| 5      | NUM_LAT_URTO         | UNI_ELABORAZIONE     | DECIMAL  | 10     | 6      |
+| 6      | NUM_LONG_URTO        | UNI_ELABORAZIONE     | DECIMAL  | 10     | 6      |
+| 7      | NUM_AMAX             | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 8      | NUM_TETA             | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 9      | NUM_DV_URTO          | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 10     | NUM_V_URTO           | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 11     | NUM_RAGIONE          | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 12     | NUM_ACC_ACT          | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 13     | NUM_GPS_ACT          | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 14     | NUM_PPU              | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 15     | NUM_DT               | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 16     | NUM_DLAT             | UNI_ELABORAZIONE     | DECIMAL  | 10     | 6      |
+| 17     | NUM_DLONG            | UNI_ELABORAZIONE     | DECIMAL  | 10     | 6      |
+| 18     | NUM_I_INIZIO_ANI     | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 19     | NUM_I_URTO_ANI       | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 20     | NUM_I_FINE_ANI       | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 21     | SUCCESSO             | UNI_ELABORAZIONE     | VARCHAR  | 1      | 0      |
+| 22     | RET_CODE             | UNI_ELABORAZIONE     | VARCHAR  | 10     | 0      |
+| 23     | DIREZIONE_MOTO       | UNI_ELABORAZIONE     | VARCHAR  | 10     | 0      |
+| 24     | NUM_V_GPS            | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 25     | NUM_ACC_SQM          | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 26     | NUM_ACC_PRIMA_URTO_T | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 27     | NUM_ACC_PRIMA_URTO_N | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 28     | NUM_N_URTI           | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 29     | DIREZIONE_URTO       | UNI_ELABORAZIONE     | VARCHAR  | 10     | 0      |
+| 30     | NUM_DVUN             | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 31     | NUM_DURATA_EVENTO    | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 32     | NUM_RESP_LIV_1       | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 33     | NUM_RESP_LIV_2       | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 34     | NUM_ORDINE_SINISTRO  | UNI_ELABORAZIONE     | INTEGER  | 4      | 0      |
+| 35     | NUM_TETA_GIRO        | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+| 36     | NUM_OFFSET           | UNI_ELABORAZIONE     | DECIMAL  | 8      | 4      |
+-------------------------------------------------------------------------------------
+
+UNI_RILEVAZIONE
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_RILEVAZIONE       | UNI_RILEVAZIONE      | DECIMAL  | 31     | 0      |
+| 1      | ID_RICHIESTA         | UNI_RILEVAZIONE      | DECIMAL  | 31     | 0      |
+| 2      | ID_CRASH_OCTO        | UNI_RILEVAZIONE      | DECIMAL  | 31     | 0      |
+| 3      | DATA_ORA_RILEVAZIONE | UNI_RILEVAZIONE      | TIMESTMP | 10     | 6      |
+| 4      | DATA_INSERIMENTO     | UNI_RILEVAZIONE      | TIMESTMP | 10     | 6      |
+| 5      | DATA_REGISTRAZIONE   | UNI_RILEVAZIONE      | TIMESTMP | 10     | 6      |
+| 6      | DATA_CONSULTAZIONE   | UNI_RILEVAZIONE      | TIMESTMP | 10     | 6      |
+| 7      | NUM_ACCELERAZIONE    | UNI_RILEVAZIONE      | DECIMAL  | 5      | 2      |
+| 8      | NUM_LAT_DICHIARATO   | UNI_RILEVAZIONE      | DECIMAL  | 10     | 6      |
+| 9      | NUM_LONG_DICHIARATO  | UNI_RILEVAZIONE      | DECIMAL  | 10     | 6      |
+| 10     | COD_PROVINCIA        | UNI_RILEVAZIONE      | CHAR     | 2      | 0      |
+| 11     | DESC_VIA             | UNI_RILEVAZIONE      | VARCHAR  | 100    | 0      |
+| 12     | DESC_COMUNE          | UNI_RILEVAZIONE      | VARCHAR  | 100    | 0      |
+| 13     | COD_CAP              | UNI_RILEVAZIONE      | VARCHAR  | 10     | 0      |
+| 14     | COD_COMPAGNIA        | UNI_RILEVAZIONE      | CHAR     | 1      | 0      |
+| 15     | DESC_STRADA          | UNI_RILEVAZIONE      | VARCHAR  | 20     | 0      |
+| 16     | DESC_INSTALLATORE    | UNI_RILEVAZIONE      | VARCHAR  | 100    | 0      |
+| 17     | COD_INSTALLATORE     | UNI_RILEVAZIONE      | VARCHAR  | 8      | 0      |
+| 18     | NUM_VOUCHER          | UNI_RILEVAZIONE      | DECIMAL  | 10     | 0      |
+| 19     | COD_TIPO_CRASH       | UNI_RILEVAZIONE      | DECIMAL  | 1      | 0      |
+| 20     | COD_TIPO_ALGORITMO   | UNI_RILEVAZIONE      | DECIMAL  | 1      | 0      |
+| 21     | COD_DATI_CRASH       | UNI_RILEVAZIONE      | DECIMAL  | 1      | 0      |
+| 22     | FLG_GIORNO_ATTIVAZIONE | UNI_RILEVAZIONE      | CHAR     | 1      | 0      |
+| 23     | NUM_LIVELLO_GPS      | UNI_RILEVAZIONE      | INTEGER  | 4      | 0      |
+| 24     | FLG_FILTRATO         | UNI_RILEVAZIONE      | CHAR     | 1      | 0      |
+| 25     | FLG_ASSISTENZA       | UNI_RILEVAZIONE      | CHAR     | 1      | 0      |
+| 26     | NUM_MAX_ACC          | UNI_RILEVAZIONE      | DECIMAL  | 5      | 2      |
+| 27     | NUM_ANG_URTO         | UNI_RILEVAZIONE      | DECIMAL  | 4      | 0      |
+| 28     | NUM_MAX_ACC_2        | UNI_RILEVAZIONE      | DECIMAL  | 5      | 2      |
+| 29     | NUM_ANG_URTO_2       | UNI_RILEVAZIONE      | DECIMAL  | 4      | 0      |
+| 30     | NUM_MAX_ACC_3        | UNI_RILEVAZIONE      | DECIMAL  | 5      | 2      |
+| 31     | NUM_ANG_URTO_3       | UNI_RILEVAZIONE      | DECIMAL  | 4      | 0      |
+| 32     | DATI_CRASH_CARICATI  | UNI_RILEVAZIONE      | INTEGER  | 4      | 0      |
+| 33     | FLG_DEVICE_ATTIVO    | UNI_RILEVAZIONE      | INTEGER  | 4      | 0      |
+| 34     | ID_CRASH_ASSISTENZA  | UNI_RILEVAZIONE      | DECIMAL  | 31     | 0      |
+-------------------------------------------------------------------------------------
+
+UNI_VIAGGIO_POSIZIONE
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_POSIZIONE_DETT    | UNI_VIAGGIO_POSIZIONE | DECIMAL  | 31     | 0      |
+| 1      | ID_VIAGGIO           | UNI_VIAGGIO_POSIZIONE | DECIMAL  | 31     | 0      |
+| 2      | DATA_ORA_POSIZIONE   | UNI_VIAGGIO_POSIZIONE | TIMESTMP | 10     | 6      |
+| 3      | LAT_POSIZIONE        | UNI_VIAGGIO_POSIZIONE | DECIMAL  | 10     | 6      |
+| 4      | LONG_POSIZIONE       | UNI_VIAGGIO_POSIZIONE | DECIMAL  | 10     | 6      |
+| 5      | NUM_LIVELLO_GPS      | UNI_VIAGGIO_POSIZIONE | INTEGER  | 4      | 0      |
+| 6      | NUM_VELOCITA         | UNI_VIAGGIO_POSIZIONE | INTEGER  | 4      | 0      |
+| 7      | DISTANZA_INTERMEDIA  | UNI_VIAGGIO_POSIZIONE | DECIMAL  | 5      | 0      |
+| 8      | NUM_MOMENTO_CRASH    | UNI_VIAGGIO_POSIZIONE | INTEGER  | 4      | 0      |
+| 9      | NUM_HEADING_GPS      | UNI_VIAGGIO_POSIZIONE | INTEGER  | 4      | 0      |
+| 10     | NUM_STATO_QUADRO     | UNI_VIAGGIO_POSIZIONE | INTEGER  | 4      | 0      |
+-------------------------------------------------------------------------------------
+
+UNI_VIAGGIO
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_VIAGGIO           | UNI_VIAGGIO          | DECIMAL  | 31     | 0      |
+| 1      | ID_RICHIESTA         | UNI_VIAGGIO          | DECIMAL  | 31     | 0      |
+| 2      | ID_VIAGGIO_OCTO      | UNI_VIAGGIO          | DECIMAL  | 31     | 0      |
+| 3      | DATA_ORA_PARTENZA    | UNI_VIAGGIO          | TIMESTMP | 10     | 6      |
+| 4      | DATA_ORA_ARRIVO      | UNI_VIAGGIO          | TIMESTMP | 10     | 6      |
+| 5      | DATA_INSERIMENTO     | UNI_VIAGGIO          | TIMESTMP | 10     | 6      |
+| 6      | NUM_LAT_PARTENZA     | UNI_VIAGGIO          | DECIMAL  | 10     | 6      |
+| 7      | NUM_LONG_PARTENZA    | UNI_VIAGGIO          | DECIMAL  | 10     | 6      |
+| 8      | NUM_LAT_ARRIVO       | UNI_VIAGGIO          | DECIMAL  | 10     | 6      |
+| 9      | NUM_LONG_ARRIVO      | UNI_VIAGGIO          | DECIMAL  | 10     | 6      |
+| 10     | NUM_LIVELLO_GPS_PARTENZA | UNI_VIAGGIO          | DECIMAL  | 1      | 0      |
+| 11     | NUM_LIVELLO_GPS_ARRIVO | UNI_VIAGGIO          | DECIMAL  | 1      | 0      |
+| 12     | NUM_DURATA_VIAGGIO   | UNI_VIAGGIO          | DECIMAL  | 10     | 0      |
+| 13     | NUM_DISTANZA_VIAGGIO | UNI_VIAGGIO          | DECIMAL  | 10     | 0      |
+| 14     | COD_PROVINCIA_PARTENZA | UNI_VIAGGIO          | CHAR     | 2      | 0      |
+| 15     | DESC_VIA_PARTENZA    | UNI_VIAGGIO          | VARCHAR  | 100    | 0      |
+| 16     | DESC_COMUNE_PARTENZA | UNI_VIAGGIO          | VARCHAR  | 100    | 0      |
+| 17     | COD_CAP_PARTENZA     | UNI_VIAGGIO          | VARCHAR  | 10     | 0      |
+| 18     | COD_PROVINCIA_ARRIVO | UNI_VIAGGIO          | CHAR     | 2      | 0      |
+| 19     | DESC_VIA_ARRIVO      | UNI_VIAGGIO          | VARCHAR  | 100    | 0      |
+| 20     | DESC_COMUNE_ARRIVO   | UNI_VIAGGIO          | VARCHAR  | 100    | 0      |
+| 21     | COD_CAP_ARRIVO       | UNI_VIAGGIO          | VARCHAR  | 10     | 0      |
+| 22     | DESC_STRADA_PARTENZA | UNI_VIAGGIO          | VARCHAR  | 20     | 0      |
+| 23     | DESC_STRADA_ARRIVO   | UNI_VIAGGIO          | VARCHAR  | 20     | 0      |
+-------------------------------------------------------------------------------------
+
+UNI_ANOMALIA
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_ANOMALIA          | UNI_ANOMALIA         | DECIMAL  | 31     | 0      |
+| 1      | TIPO_ANOMALIA        | UNI_ANOMALIA         | VARCHAR  | 6      | 0      |
+| 2      | STATO_ANOMALIA       | UNI_ANOMALIA         | VARCHAR  | 3      | 0      |
+| 3      | DATA_ORA_INIZIO      | UNI_ANOMALIA         | TIMESTMP | 10     | 6      |
+| 4      | DATA_ORA_FINE        | UNI_ANOMALIA         | TIMESTMP | 10     | 6      |
+| 5      | ID_RICHIESTA         | UNI_ANOMALIA         | DECIMAL  | 31     | 0      |
+-------------------------------------------------------------------------------------
+
+UNI_SOSTA
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_SOSTA             | UNI_SOSTA            | DECIMAL  | 31     | 0      |
+| 1      | DATA_ORA_SOSTA       | UNI_SOSTA            | TIMESTMP | 10     | 6      |
+| 2      | NUM_LAT_SOSTA        | UNI_SOSTA            | DECIMAL  | 10     | 6      |
+| 3      | NUM_LONG_SOSTA       | UNI_SOSTA            | DECIMAL  | 10     | 6      |
+| 4      | QUALITA_GPS          | UNI_SOSTA            | INTEGER  | 4      | 0      |
+| 5      | COD_PROVINCIA        | UNI_SOSTA            | VARCHAR  | 2      | 0      |
+| 6      | DESC_VIA             | UNI_SOSTA            | VARCHAR  | 100    | 0      |
+| 7      | COD_CAP              | UNI_SOSTA            | VARCHAR  | 100    | 0      |
+| 8      | DESC_COMUNE          | UNI_SOSTA            | VARCHAR  | 100    | 0      |
+| 9      | DESC_CATEG_STRADA    | UNI_SOSTA            | VARCHAR  | 20     | 0      |
+| 10     | ID_RICHIESTA         | UNI_SOSTA            | DECIMAL  | 31     | 0      |
+-------------------------------------------------------------------------------------
+
+UNI_STATO_DEVICE
+
+-------------------------------------------------------------------------------------
+| COLNO  | NAME                 | TBNAME               | COLTYPE  | LENGTH | SCALE  |
+-------------------------------------------------------------------------------------
+| 0      | ID_STATO_DEVICE      | UNI_STATO_DEVICE     | DECIMAL  | 31     | 0      |
+| 1      | DATA_ORA_INIZIO      | UNI_STATO_DEVICE     | TIMESTMP | 10     | 6      |
+| 2      | DATA_ORA_FINE        | UNI_STATO_DEVICE     | TIMESTMP | 10     | 6      |
+| 3      | STATO_DEVICE         | UNI_STATO_DEVICE     | INTEGER  | 4      | 0      |
+| 4      | ID_RICHIESTA         | UNI_STATO_DEVICE     | DECIMAL  | 31     | 0      |
+-------------------------------------------------------------------------------------

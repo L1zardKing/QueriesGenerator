@@ -1,0 +1,10 @@
+ID_ACC string,
+ID_ELABORAZIONE string,
+NUM_ACC_X string,
+NUM_ACC_Y string,
+NUM_ACC_Z string,
+NUM_ACC_XY string,
+NUM_VEL_ACC string,
+NUM_VEL_GPS string,
+ORA_CRASH string,
+NUM_APP_URTO string
