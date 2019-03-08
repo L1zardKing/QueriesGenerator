@@ -56,9 +56,10 @@ public class FileQueriesGenerator {
                 if (field.isFirstLine()) continue;
                 bodyPart.append("dedup.").append(field.name).append(",\n");
             }
+            String finalBody = bodyPart.substring(0, bodyPart.length() -2) + " \n";
             fileText.append("INSERT OVERWRITE TABLE %s.%s\n" +
                     "SELECT\n");
-            fileText.append(bodyPart.toString());
+            fileText.append(finalBody);
             fileText.append("FROM (\n" +
                     "    SELECT *\n" +
                     "    FROM\n" +
@@ -69,9 +70,10 @@ public class FileQueriesGenerator {
                     "    FROM\n" +
                     "        %s.%s ) as dedup\n" +
                     "GROUP BY\n");
-            fileText.append(bodyPart.toString());
+            fileText.append(finalBody);
             String finalQuery = fileText.substring(0,fileText.length() -2);
             Files.write(file, finalQuery.getBytes(), StandardOpenOption.APPEND, StandardOpenOption.CREATE);
+            bodyPart = new StringBuilder();
             fileText = new StringBuilder();
         }
     }

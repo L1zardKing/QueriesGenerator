@@ -1,18 +1,11 @@
 INSERT OVERWRITE TABLE %s.%s
 SELECT
-dedup.ID_CRASH_GIR,
-dedup.NUM_GIR_X,
-dedup.NUM_GIR_Y,
-dedup.NUM_GIR_Z,
-dedup.DATA_ORA_POSIZIONE,
-dedup.ID_RICHIESTA,
-dedup.ID_CRASH_OCTO,
 dedup.ID_ANOMALIA,
 dedup.TIPO_ANOMALIA,
 dedup.STATO_ANOMALIA,
 dedup.DATA_ORA_INIZIO,
 dedup.DATA_ORA_FINE,
-dedup.ID_RICHIESTA,
+dedup.ID_RICHIESTA 
 FROM (
     SELECT *
     FROM
@@ -23,13 +16,6 @@ FROM (
     FROM
         %s.%s ) as dedup
 GROUP BY
-dedup.ID_CRASH_GIR,
-dedup.NUM_GIR_X,
-dedup.NUM_GIR_Y,
-dedup.NUM_GIR_Z,
-dedup.DATA_ORA_POSIZIONE,
-dedup.ID_RICHIESTA,
-dedup.ID_CRASH_OCTO,
 dedup.ID_ANOMALIA,
 dedup.TIPO_ANOMALIA,
 dedup.STATO_ANOMALIA,
