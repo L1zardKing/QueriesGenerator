@@ -6,5 +6,5 @@ cast (NUM_ACC_Z as decimal(8,4)) as NUM_ACC_Z ,
 cast (NUM_ACC_XY as decimal(8,4)) as NUM_ACC_XY ,
 cast (NUM_VEL_ACC as decimal(8,4)) as NUM_VEL_ACC ,
 cast (NUM_VEL_GPS as decimal(8,4)) as NUM_VEL_GPS ,
-to_date (ORA_CRASH) as ORA_CRASH ,
+cast (ORA_CRASH as timestamp ) as ORA_CRASH ,
 cast (NUM_APP_URTO as bigint) as NUM_APP_URTO 

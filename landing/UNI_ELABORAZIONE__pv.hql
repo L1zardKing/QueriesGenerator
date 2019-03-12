@@ -1,7 +1,7 @@
 cast (ID_ELABORAZIONE as decimal(31,0)) as ID_ELABORAZIONE ,
 cast (ID_RILEVAZIONE as decimal(10,0)) as ID_RILEVAZIONE ,
 cast (NUM_VERSIONE as decimal(8,4)) as NUM_VERSIONE ,
-to_date (DATA_ORA_ELABORAZIONE) as DATA_ORA_ELABORAZIONE ,
+cast (DATA_ORA_ELABORAZIONE as timestamp ) as DATA_ORA_ELABORAZIONE ,
 DESC_NOME_FILE ,
 cast (NUM_LAT_URTO as decimal(10,6)) as NUM_LAT_URTO ,
 cast (NUM_LONG_URTO as decimal(10,6)) as NUM_LONG_URTO ,

@@ -41,8 +41,11 @@ public class Field {
         if (type.equals(Types.DECIMAL)) {
             castedString.append("cast (").append(name).append(String.format(" as decimal(%d,%d)) as ", length, scale)).append(name);
         }
-        if (type.equals(Types.TIMESTMP) || type.equals(Types.DATE)) {
-            castedString.append("to_date (").append(name).append(") as ").append(name);
+        if (type.equals(Types.TIMESTMP)) {
+            castedString.append("cast (").append(name).append(" as timestamp ) as ").append(name);
+        }
+        if (type.equals(Types.DATE)) {
+            castedString.append("to_date ( ").append(name).append(" ) as ").append(name);
         }
         return castedString.toString();
     }

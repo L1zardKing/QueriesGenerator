@@ -1,6 +1,6 @@
 cast (ID_POSIZIONE_DETT as decimal(31,0)) as ID_POSIZIONE_DETT ,
 cast (ID_VIAGGIO as decimal(31,0)) as ID_VIAGGIO ,
-to_date (DATA_ORA_POSIZIONE) as DATA_ORA_POSIZIONE ,
+cast (DATA_ORA_POSIZIONE as timestamp ) as DATA_ORA_POSIZIONE ,
 cast (LAT_POSIZIONE as decimal(10,6)) as LAT_POSIZIONE ,
 cast (LONG_POSIZIONE as decimal(10,6)) as LONG_POSIZIONE ,
 cast (NUM_LIVELLO_GPS as bigint) as NUM_LIVELLO_GPS ,

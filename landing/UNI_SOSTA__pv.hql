@@ -1,5 +1,5 @@
 cast (ID_SOSTA as decimal(31,0)) as ID_SOSTA ,
-to_date (DATA_ORA_SOSTA) as DATA_ORA_SOSTA ,
+cast (DATA_ORA_SOSTA as timestamp ) as DATA_ORA_SOSTA ,
 cast (NUM_LAT_SOSTA as decimal(10,6)) as NUM_LAT_SOSTA ,
 cast (NUM_LONG_SOSTA as decimal(10,6)) as NUM_LONG_SOSTA ,
 cast (QUALITA_GPS as bigint) as QUALITA_GPS ,

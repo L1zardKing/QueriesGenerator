@@ -4,4 +4,4 @@ cast (VEL_ANG_X as decimal(8,4)) as VEL_ANG_X ,
 cast (VEL_ANG_Y as decimal(8,4)) as VEL_ANG_Y ,
 cast (VEL_ANG_Z as decimal(8,4)) as VEL_ANG_Z ,
 cast (VEL_ANG_MED as decimal(8,4)) as VEL_ANG_MED ,
-to_date (ORA_CRASH) as ORA_CRASH 
+cast (ORA_CRASH as timestamp ) as ORA_CRASH 

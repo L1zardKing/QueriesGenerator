@@ -5,5 +5,5 @@ cast (NUM_LONG_CRASH as decimal(10,6)) as NUM_LONG_CRASH ,
 cast (NUM_VEL_GPS as decimal(8,4)) as NUM_VEL_GPS ,
 cast (NUM_QUADRO as decimal(31,0)) as NUM_QUADRO ,
 cast (NUM_FLAG as decimal(2,0)) as NUM_FLAG ,
-to_date (ORA_CRASH) as ORA_CRASH ,
+cast (ORA_CRASH as timestamp ) as ORA_CRASH ,
 cast (NUM_ORIGINE_DATO as bigint) as NUM_ORIGINE_DATO 
