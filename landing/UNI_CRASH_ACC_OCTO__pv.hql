@@ -5,4 +5,7 @@ cast (NUM_ACC_Z as decimal(10,5)) as NUM_ACC_Z ,
 cast (HZ as bigint) as HZ ,
 cast (DATA_ORA_POS as timestamp ) as DATA_ORA_POS ,
 cast (ID_CRASH_OCTO as decimal(31,0)) as ID_CRASH_OCTO ,
-cast (ID_RICHIESTA as decimal(31,0)) as ID_RICHIESTA 
+cast (ID_RICHIESTA as decimal(31,0)) as ID_RICHIESTA ,
+DATA_ORA_SINISTRO,
+split(DATA_ORA_SINISTRO,'-')[0] as anno, 
+weekofyear(DATA_ORA_SINISTRO) as week

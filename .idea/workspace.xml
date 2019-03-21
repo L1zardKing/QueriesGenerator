@@ -2,24 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3970ae94-1736-4240-8325-b53b215ea719" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/UNI_ANOMALIA__pv.hql" beforeDir="false" afterPath="$PROJECT_DIR$/landing/UNI_ANOMALIA__pv.hql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_ACC_OCTO__pv.hql" beforeDir="false" afterPath="$PROJECT_DIR$/landing/UNI_CRASH_ACC_OCTO__pv.hql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_ACC__pv.hql" beforeDir="false" afterPath="$PROJECT_DIR$/landing/UNI_CRASH_ACC__pv.hql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_GIROSCOPIO_OCTO__pv.hql" beforeDir="false" afterPath="$PROJECT_DIR$/landing/UNI_CRASH_GIROSCOPIO_OCTO__pv.hql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_GIROSCOPIO__pv.hql" beforeDir="false" afterPath="$PROJECT_DIR$/landing/UNI_CRASH_GIROSCOPIO__pv.hql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_POSIZIONE_OCTO__pv.hql" beforeDir="false" afterPath="$PROJECT_DIR$/landing/UNI_CRASH_POSIZIONE_OCTO__pv.hql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_POSIZIONE__pv.hql" beforeDir="false" afterPath="$PROJECT_DIR$/landing/UNI_CRASH_POSIZIONE__pv.hql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/UNI_ELABORAZIONE__pv.hql" beforeDir="false" afterPath="$PROJECT_DIR$/landing/UNI_ELABORAZIONE__pv.hql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/UNI_RICHIESTA__pv.hql" beforeDir="false" afterPath="$PROJECT_DIR$/landing/UNI_RICHIESTA__pv.hql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/UNI_RILEVAZIONE__pv.hql" beforeDir="false" afterPath="$PROJECT_DIR$/landing/UNI_RILEVAZIONE__pv.hql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/UNI_SOSTA__pv.hql" beforeDir="false" afterPath="$PROJECT_DIR$/landing/UNI_SOSTA__pv.hql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/UNI_STATO_DEVICE__pv.hql" beforeDir="false" afterPath="$PROJECT_DIR$/landing/UNI_STATO_DEVICE__pv.hql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/UNI_VIAGGIO_POSIZIONE__pv.hql" beforeDir="false" afterPath="$PROJECT_DIR$/landing/UNI_VIAGGIO_POSIZIONE__pv.hql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/UNI_VIAGGIO__pv.hql" beforeDir="false" afterPath="$PROJECT_DIR$/landing/UNI_VIAGGIO__pv.hql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QueriesGenerator/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QueriesGenerator/Field.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_ANOMALIA__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_ANOMALIA__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_ACC_OCTO__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_ACC_OCTO__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_ACC__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_ACC__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_CALIBRAZIONE_OCTO__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_CALIBRAZIONE_OCTO__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_GIROSCOPIO_OCTO__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_GIROSCOPIO_OCTO__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_GIROSCOPIO__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_GIROSCOPIO__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_POSIZIONE_OCTO__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_POSIZIONE_OCTO__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_POSIZIONE__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_CRASH_POSIZIONE__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_ELABORAZIONE_DETTAGLIO_URTI__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_ELABORAZIONE_DETTAGLIO_URTI__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_ELABORAZIONE__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_ELABORAZIONE__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_RICHIESTA__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_RICHIESTA__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_RILEVAZIONE__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_RILEVAZIONE__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_SOSTA__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_SOSTA__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_STATO_DEVICE__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_STATO_DEVICE__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_VIAGGIO_POSIZIONE__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_VIAGGIO_POSIZIONE__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_VIAGGIO__ext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/UNI_VIAGGIO__pv.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QueriesGenerator/FileQueriesGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QueriesGenerator/FileQueriesGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileQueriesGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileQueriesGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_ANOMALIA__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_CRASH_ACC_OCTO__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_CRASH_ACC__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_CRASH_CALIBRAZIONE_OCTO__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_CRASH_GIROSCOPIO_OCTO__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_CRASH_GIROSCOPIO__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_CRASH_POSIZIONE_OCTO__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_CRASH_POSIZIONE__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_ELABORAZIONE_DETTAGLIO_URTI__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_ELABORAZIONE__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_RICHIESTA__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_RILEVAZIONE__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_SOSTA__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_STATO_DEVICE__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_VIAGGIO_POSIZIONE__dedup.hql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/UNI_VIAGGIO__dedup.hql" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FileQueriesGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+            <state relative-caret-position="313">
+              <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,30 +76,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/castExample">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="47" column="52" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Field.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WorkingLayerQueryExample">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/workspace/UNI_CRASH_POSIZIONE_OCTO__dedup.hql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -77,6 +88,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>giorno</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,15 +107,14 @@
         <option value="$PROJECT_DIR$/castExample" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/WorkingLayerQueryExample" />
-        <option value="$PROJECT_DIR$/src/FileQueriesGenerator.java" />
         <option value="$PROJECT_DIR$/src/Field.java" />
+        <option value="$PROJECT_DIR$/src/FileQueriesGenerator.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="961" />
     <option name="y" value="35" />
-    <option name="width" value="959" />
+    <option name="width" value="960" />
     <option name="height" value="1012" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -108,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,18 +133,19 @@
             <path>
               <item name="QueriesGenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="QueriesGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QueriesGenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="QueriesGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,6 +154,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/layer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/landing" />
+      <recent name="$PROJECT_DIR$/workspace" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -190,7 +209,7 @@
     <frame x="0" y="35" width="1920" height="1012" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21664888" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23212379" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -202,7 +221,7 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32919955" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32919955" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -229,7 +248,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/FileQueriesGenerator.java</url>
-          <line>53</line>
+          <line>86</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -256,23 +275,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/lang/String.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="823" column="20" selection-start-line="823" selection-start-column="20" selection-end-line="823" selection-end-column="20" />
-          <folding>
-            <element signature="e#25221#25222#0" expanded="true" />
-            <element signature="e#25263#25264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UNI_ANOMALIA" />
-    <entry file="file://$PROJECT_DIR$/UNI_CRASH_ACC" />
-    <entry file="file://$PROJECT_DIR$/UNI_CRASH_ACC_OCTO" />
-    <entry file="file://$PROJECT_DIR$/layer/UNI_ANOMALIA__ext.txt" />
-    <entry file="file://$PROJECT_DIR$/layer/UNI_CRASH_ACC__ext.txt" />
-    <entry file="file://$PROJECT_DIR$/layer/UNI_VIAGGIO_POSIZIONE__ext.txt" />
     <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/nio/file/StandardOpenOption.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -313,13 +315,6 @@
     <entry file="file://$PROJECT_DIR$/src/TableWithQuery.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TablesAndQueriesHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layer/UNI_CRASH_ACC_OCTO__ext.txt" />
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -328,19 +323,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workspace/UNI_CRASH_CALIBRAZIONE_OCTO__dedup.hql">
+    <entry file="file://$PROJECT_DIR$/landing/UNI_SOSTA__ext.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/UNI_CRASH_GIROSCOPIO__pv.hql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TablesAndQueriesHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/castExample">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WorkingLayerQueryExample">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/UNI_CRASH_CALIBRAZIONE_OCTO__pv.hql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/UNI_CRASH_POSIZIONE_OCTO__pv.hql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/UNI_VIAGGIO_POSIZIONE__creation_dedup.hql" />
+    <entry file="file://$PROJECT_DIR$/workspace/UNI_CRASH_GIROSCOPIO__creation_dedup.hql" />
+    <entry file="file://$PROJECT_DIR$/workspace/UNI_CRASH_ACC__creation_dedup.hql" />
+    <entry file="file://$PROJECT_DIR$/workspace/UNI_RICHIESTA__creation_dedup.hql" />
+    <entry file="file://$PROJECT_DIR$/landing/UNI_VIAGGIO_POSIZIONE__ext.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/UNI_ANOMALIA__creation_dedup.hql" />
+    <entry file="file://$PROJECT_DIR$/landing/UNI_RICHIESTA__ext.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/UNI_ANOMALIA__ext.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/UNI_ANOMALIA__pv.hql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/UNI_VIAGGIO_POSIZIONE__pv.hql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/UNI_RICHIESTA__pv.hql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/UNI_CRASH_ACC_OCTO__pv.hql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/UNI_STATO_DEVICE__pv.hql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/workspace/UNI_CRASH_GIROSCOPIO__dedup.hql">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workspace/UNI_CRASH_GIROSCOPIO_OCTO__dedup.hql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/workspace/UNI_CRASH_POSIZIONE__dedup.hql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspace/UNI_CRASH_POSIZIONE_OCTO__dedup.hql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/workspace/UNI_ELABORAZIONE__dedup.hql">
@@ -359,80 +439,65 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/workspace/UNI_STATO_DEVICE__dedup.hql">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workspace/UNI_VIAGGIO__dedup.hql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/workspace/UNI_VIAGGIO_POSIZIONE__dedup.hql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landing/UNI_CRASH_ACC__ext.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspace/UNI_ANOMALIA__dedup.hql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-951" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landing/UNI_CRASH_ACC_OCTO__pv.hql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landing/UNI_SOSTA__ext.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landing/UNI_RICHIESTA__ext.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landing/UNI_RICHIESTA__pv.hql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspace/UNI_CRASH_ACC_OCTO__dedup.hql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/castExample">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="52" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WorkingLayerQueryExample">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+        <state relative-caret-position="285">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workspace/UNI_CRASH_ACC__dedup.hql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="493">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/UNI_ANOMALIA__dedup.hql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/UNI_CRASH_CALIBRAZIONE_OCTO__dedup.hql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/UNI_CRASH_ACC_OCTO__dedup.hql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/UNI_CRASH_ACC__pv.hql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/UNI_CRASH_POSIZIONE_OCTO__dedup.hql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/UNI_CRASH_ACC_OCTO__ext.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/UNI_CRASH_ACC__ext.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FileQueriesGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        <state relative-caret-position="313">
+          <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
         </state>
       </provider>
     </entry>

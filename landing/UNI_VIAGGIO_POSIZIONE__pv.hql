@@ -8,4 +8,7 @@ cast (NUM_VELOCITA as bigint) as NUM_VELOCITA ,
 cast (DISTANZA_INTERMEDIA as decimal(5,0)) as DISTANZA_INTERMEDIA ,
 cast (NUM_MOMENTO_CRASH as bigint) as NUM_MOMENTO_CRASH ,
 cast (NUM_HEADING_GPS as bigint) as NUM_HEADING_GPS ,
-cast (NUM_STATO_QUADRO as bigint) as NUM_STATO_QUADRO 
+cast (NUM_STATO_QUADRO as bigint) as NUM_STATO_QUADRO ,
+DATA_ORA_SINISTRO,
+split(DATA_ORA_SINISTRO,'-')[0] as anno, 
+weekofyear(DATA_ORA_SINISTRO) as week

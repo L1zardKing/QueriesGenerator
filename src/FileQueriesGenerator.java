@@ -3,15 +3,27 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class FileQueriesGenerator {
 
+    private static HashMap<String,String> tablesToPartition = new HashMap<String,String>(){{
+       put("UNI_CRASH_ACC_OCTO","DATA_ORA_SINISTRO");
+       put("UNI_CRASH_GIROSCOPIO_OCTO","DATA_ORA_SINISTRO");
+       put("UNI_CRASH_POSIZIONE_OCTO","DATA_ORA_SINISTRO");
+       put("UNI_CRASH_ACC","DATA_ORA_SINISTRO");
+       put("UNI_CRASH_POSIZIONE","DATA_ORA_SINISTRO");
+       put("UNI_CRASH_GIROSCOPIO","DATA_ORA_SINISTRO");
+       put("UNI_VIAGGIO_POSIZIONE","DATA_ORA_SINISTRO");
+       put("UNI_VIAGGIO","DATA_ORA_SINISTRO");
+    }};
 
     public static void generateQueriesFiles(Map<String, List<Field>> tableWithFields) throws IOException {
         generateExternalQueries (tableWithFields);
-        generateParsingViewQueries (tableWithFields);
+        generateParsingViewQueries (tableWithFields, false);
+        //generateParsingViewQueries (tableWithFields, true);
         generateWorkingLayerQueries(tableWithFields);
     }
 
@@ -24,6 +36,9 @@ public class FileQueriesGenerator {
                 if (field.isFirstLine()) continue;
                 fileText.append(field.name).append(" string,\n");
             }
+            if (tablesToPartition.get(table.getKey())!= null) {
+                fileText.append("DATA_ORA_SINISTRO string,\n");
+            }
             String finalQuery = fileText.substring(0,fileText.length() -2);
             Files.write(file, finalQuery.getBytes(), StandardOpenOption.APPEND, StandardOpenOption.CREATE);
             fileText = new StringBuilder();
@@ -31,18 +46,36 @@ public class FileQueriesGenerator {
 
     }
 
-    private static void generateParsingViewQueries(Map<String, List<Field>> tableWithFields) throws IOException {
+    private static void generateParsingViewQueries(Map<String, List<Field>> tableWithFields, Boolean withoutAdditionalFields) throws IOException {
 
         StringBuilder fileText = new StringBuilder();
         for (Map.Entry<String,List<Field>> table : tableWithFields.entrySet()){
-            Path file = Paths.get("landing/" + table.getKey() + "__pv.hql");
+            Path file;
+            if (!withoutAdditionalFields) {
+                file = Paths.get("landing/" + table.getKey() + "__pv.hql");
+            }
+            else {
+                file = Paths.get("workspace/" + table.getKey() + "__creation_dedup.hql");
+            }
             for (Field field : table.getValue()) {
                 if (field.isFirstLine()) continue;
                 String casted = field.cast();
                 fileText.append(casted).append(" ,\n");
             }
-            String finalQuery = fileText.substring(0,fileText.length() -2);
-            Files.write(file, finalQuery.getBytes(), StandardOpenOption.APPEND, StandardOpenOption.CREATE);
+            String field = tablesToPartition.get(table.getKey());
+            String finalQuery;
+            if (field != null && !withoutAdditionalFields) {
+                fileText.append("DATA_ORA_SINISTRO,\n");
+
+                String split = "split(%s,'-')[0] as anno, \n" +
+                        "weekofyear(%s) as week";
+                fileText.append(String.format(split, field, field, field));
+                finalQuery = fileText.toString();
+            } else {
+                finalQuery  = fileText.substring(0, fileText.length() -2 );
+            }
+
+            Files.write(file, finalQuery.getBytes());
             fileText = new StringBuilder();
         }
     }
@@ -56,11 +89,21 @@ public class FileQueriesGenerator {
                 if (field.isFirstLine()) continue;
                 bodyPart.append("dedup.").append(field.name).append(",\n");
             }
-            String finalBody = bodyPart.substring(0, bodyPart.length() -2) + " \n";
-            fileText.append("INSERT OVERWRITE TABLE %s.%s\n" +
-                    "SELECT\n");
+            String finalBody = bodyPart.toString();
+
+            if (tablesToPartition.get(table.getKey())!= null) {
+                fileText.append("set hive.exec.dynamic.partition.mode=nonstrict;\nINSERT OVERWRITE TABLE %s.%s PARTITION (anno, week) \n" +
+                        "SELECT\n");
+                finalBody += "dedup.data_ora_sinistro,\ndedup.anno, dedup.week,\n";
+            } else {
+                fileText.append("INSERT OVERWRITE TABLE %s.%s \n" +
+                        "SELECT\n");
+            }
+
+            finalBody = finalBody.substring(0, finalBody.length() -2);
+
             fileText.append(finalBody);
-            fileText.append("FROM (\n" +
+            fileText.append("\nFROM (\n" +
                     "    SELECT *\n" +
                     "    FROM\n" +
                     "        %s.%s\n" +
@@ -71,8 +114,7 @@ public class FileQueriesGenerator {
                     "        %s.%s ) as dedup\n" +
                     "GROUP BY\n");
             fileText.append(finalBody);
-            String finalQuery = fileText.substring(0,fileText.length() -2);
-            Files.write(file, finalQuery.getBytes(), StandardOpenOption.APPEND, StandardOpenOption.CREATE);
+            Files.write(file, fileText.toString().getBytes());
             bodyPart = new StringBuilder();
             fileText = new StringBuilder();
         }

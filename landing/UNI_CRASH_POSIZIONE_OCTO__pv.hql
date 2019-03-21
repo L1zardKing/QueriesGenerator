@@ -9,4 +9,7 @@ cast (VELOCITA_GPS as decimal(10,2)) as VELOCITA_GPS ,
 cast (HEADING_GPS as decimal(3,0)) as HEADING_GPS ,
 cast (STATO_QUADRO as decimal(1,0)) as STATO_QUADRO ,
 cast (ID_RICHIESTA as decimal(31,0)) as ID_RICHIESTA ,
-cast (NUM_DIST_INTER as bigint) as NUM_DIST_INTER 
+cast (NUM_DIST_INTER as bigint) as NUM_DIST_INTER ,
+DATA_ORA_SINISTRO,
+split(DATA_ORA_SINISTRO,'-')[0] as anno, 
+weekofyear(DATA_ORA_SINISTRO) as week

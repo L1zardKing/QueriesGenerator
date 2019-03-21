@@ -1,4 +1,4 @@
-INSERT OVERWRITE TABLE %s.%s
+INSERT OVERWRITE TABLE %s.%s 
 SELECT
 dedup.ID_CRASH_ROTAZ,
 dedup.NUM_ALFA_X,
@@ -8,7 +8,7 @@ dedup.ID_RICHIESTA,
 dedup.ID_CRASH_OCTO,
 dedup.NUM_OFFSET_X,
 dedup.NUM_OFFSET_Y,
-dedup.NUM_OFFSET_Z 
+dedup.NUM_OFFSET_Z
 FROM (
     SELECT *
     FROM

@@ -4,4 +4,12 @@ NUM_GIR_Y string,
 NUM_GIR_Z string,
 DATA_ORA_POSIZIONE string,
 ID_RICHIESTA string,
-ID_CRASH_OCTO string
+ID_CRASH_OCTO string,
+DATA_ORA_SINISTRO stringID_CRASH_GIR string,
+NUM_GIR_X string,
+NUM_GIR_Y string,
+NUM_GIR_Z string,
+DATA_ORA_POSIZIONE string,
+ID_RICHIESTA string,
+ID_CRASH_OCTO string,
+DATA_ORA_SINISTRO string

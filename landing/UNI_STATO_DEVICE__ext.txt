@@ -2,4 +2,8 @@ ID_STATO_DEVICE string,
 DATA_ORA_INIZIO string,
 DATA_ORA_FINE string,
 STATO_DEVICE string,
+ID_RICHIESTA stringID_STATO_DEVICE string,
+DATA_ORA_INIZIO string,
+DATA_ORA_FINE string,
+STATO_DEVICE string,
 ID_RICHIESTA string

@@ -1,4 +1,5 @@
-INSERT OVERWRITE TABLE %s.%s
+set hive.exec.dynamic.partition.mode=nonstrict;
+INSERT OVERWRITE TABLE %s.%s PARTITION (anno, week) 
 SELECT
 dedup.ID_POSIZIONE_DETT,
 dedup.ID_VIAGGIO,
@@ -10,7 +11,9 @@ dedup.NUM_VELOCITA,
 dedup.DISTANZA_INTERMEDIA,
 dedup.NUM_MOMENTO_CRASH,
 dedup.NUM_HEADING_GPS,
-dedup.NUM_STATO_QUADRO 
+dedup.NUM_STATO_QUADRO,
+dedup.data_ora_sinistro,
+dedup.anno, dedup.week
 FROM (
     SELECT *
     FROM
@@ -31,4 +34,6 @@ dedup.NUM_VELOCITA,
 dedup.DISTANZA_INTERMEDIA,
 dedup.NUM_MOMENTO_CRASH,
 dedup.NUM_HEADING_GPS,
-dedup.NUM_STATO_QUADRO
+dedup.NUM_STATO_QUADRO,
+dedup.data_ora_sinistro,
+dedup.anno, dedup.week
